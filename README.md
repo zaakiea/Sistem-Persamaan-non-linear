@@ -1,16 +1,26 @@
-Demonstrasi Sistem Persamaan Non-Linear
+
 <img width="1580" height="222" alt="image" src="https://github.com/user-attachments/assets/a5d52df7-18c6-4c83-9769-6f2b8e98f87b" />
-Buatlah demonstrasi pemecahan solusi sistem persamaan linear dari materi M06 sebagai berikut:
-•	Demonstrasi bisa menggunakan aplikasi spreadsheet atau pemrograman (C, Python, Pascal, atau lainnya)
-•	Fungsi iterasi: Iterasi titik tetap (IT), Newton-Raphson (IN), dan Secant (IS)
-•	Metode iterasi di IT: Jacobi (J) dan Seidel (S)
-•	Fungsi iterasi g1, g2 di IT: g1A dan g2A (halaman 5), g1B dan g2B  (halaman 6)
-Ketentuan: 
-•	NIMx = 2 digit terakhir NIM mod 4
-•	Setiap mahasiswa melakukan demonstrasi 4 solusi sbb:
-o	2 metode IT dengan Jacobi dan Seidel dengan kombinasi fungsi iterasi: g1A dan g2A (NIMx = 0), g1A dan g2B (NIMx = 1), g2A dan g1B dan g2A (NIMx = 2), dan g1B dan g2B (NIMx=3)
-o	1 metode Newton-Raphson
-o	1 metode Secant 
-•	Tebakan nilai silahkan ditentukan. Toleransi galat 0,000001.
-•	Mahasiswa menganalisis konvergensi dan kecepatannya
-•	Solusi dinyatakan dalam file doc atau docx 
+# Demonstrasi Penyelesaian Sistem Persamaan Non-Linear (Materi M06)
+
+Repositori ini berisi implementasi beberapa metode numerik dalam bahasa Python untuk menyelesaikan sistem persamaan non-linear sebagai tugas mata kuliah Metode Numerik.
+
+## 📝 Deskripsi Masalah
+
+Sistem persamaan non-linear yang akan diselesaikan adalah sebagai berikut:
+
+\$f_1(x, y) = x^2 + xy - 10 = 0\$
+
+\$f_2(x, y) = y + 3xy^2 - 57 = 0\$
+
+Dengan kondisi:
+* **Tebakan Awal**: \$x_0 = 1.5\$, \$y_0 = 3.5\$
+* **Toleransi Galat (epsilon)**: \$0.000001\$
+
+## ⚙️ Metode yang Digunakan
+
+Sesuai dengan ketentuan tugas untuk **NIMx = 0**, implementasi ini mencakup empat metode berikut:
+
+1.  **Iterasi Titik Tetap (Metode Jacobi)**: Menggunakan kombinasi fungsi iterasi \`g1A\` dan \`g2A\`.
+2.  **Iterasi Titik Tetap (Metode Gauss-Seidel)**: Menggunakan kombinasi fungsi iterasi \`g1A\` dan \`g2A\`.
+3.  **Metode Newton-Raphson**: Metode berbasis turunan untuk menemukan akar dengan konvergensi kuadratik.
+4.  **Metode Secant**: Aproksimasi dari metode Newton-Raphson.
