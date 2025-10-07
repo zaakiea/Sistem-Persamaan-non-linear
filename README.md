@@ -1,6 +1,6 @@
-
-<img width="1580" height="222" alt="image" src="https://github.com/user-attachments/assets/a5d52df7-18c6-4c83-9769-6f2b8e98f87b" />
 # Demonstrasi Penyelesaian Sistem Persamaan Non-Linear (Materi M06)
+<img width="1580" height="222" alt="image" src="https://github.com/user-attachments/assets/a5d52df7-18c6-4c83-9769-6f2b8e98f87b" />
+
 
 Repositori ini berisi implementasi beberapa metode numerik dalam bahasa Python untuk menyelesaikan sistem persamaan non-linear sebagai tugas mata kuliah Metode Numerik.
 
